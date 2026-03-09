@@ -1,93 +1,101 @@
 # 🤖 AI Code Review & Rewrite Agent
 
-🚀 An **AI-powered developer tool** that automatically reviews source code, detects issues, and generates improved versions using Artificial Intelligence.
+<p align="center">
 
-This application helps developers improve **code quality, security, and performance** through automated AI analysis.
+🚀 **AI-Powered Developer Assistant for Smart Code Review & Automatic Code Improvement**
+
+</p>
+
+<p align="center">
+
+![GitHub repo size](https://img.shields.io/github/repo-size/Bharathkumar-6309/Ai_code_Review_and_Rewrite)
+![GitHub stars](https://img.shields.io/github/stars/Bharathkumar-6309/Ai_code_Review_and_Rewrite?style=social)
+![GitHub forks](https://img.shields.io/github/forks/Bharathkumar-6309/Ai_code_Review_and_Rewrite?style=social)
+![License](https://img.shields.io/badge/License-MIT-blue)
+![AI Powered](https://img.shields.io/badge/AI-Gemini-blueviolet)
+
+</p>
 
 ---
 
 # 🌐 Live Demo
 
-🔗 **Live Application:** https://ai-code-review-and-rewrite.vercel.app/
-🔗 **GitHub Repository:** https://github.com/Bharathkumar-6309/Ai_code_Review_and_Rewrite
+🚀 **Try the Application**
+
+🔗 **Live App:**
+https://ai-code-review-and-rewrite.vercel.app/
+
+📂 **GitHub Repository:**
+https://github.com/Bharathkumar-6309/Ai_code_Review_and_Rewrite
+
+---
+
+# 📖 Table of Contents
+
+* Problem
+* Solution
+* Features
+* Tech Stack
+* System Architecture
+* Installation
+* Environment Variables
+* Deployment
+* Future Improvements
+* License
+
 ---
 
 # 📌 Problem
 
-Developers often spend a significant amount of time performing manual code reviews to identify:
+Developers spend significant time performing **manual code reviews** to identify:
 
-* Bugs and logical errors
-* Security vulnerabilities
-* Performance issues
-* Poor coding practices
+❌ Bugs and logical errors
+❌ Security vulnerabilities
+❌ Performance issues
+❌ Poor coding practices
 
-Manual code review slows down development and requires experienced developers.
+Manual code reviews slow development and require **experienced engineers**.
 
 ---
 
 # 💡 Solution
 
-The **AI Code Review & Rewrite Agent** automates the code review process using AI models.
+The **AI Code Review & Rewrite Agent** automates the entire review process using **AI-powered analysis**.
 
-The system analyzes code and provides:
+The system can:
 
-✔ Bug detection
-✔ Security analysis
-✔ Performance optimization suggestions
-✔ Code quality improvements
-✔ AI-generated improved code
+✅ Detect bugs and logical errors
+✅ Identify security vulnerabilities
+✅ Suggest performance optimizations
+✅ Improve code readability and structure
+✅ Generate **AI-improved code versions**
 
-This enables developers to **write cleaner and more reliable code faster**.
-
----
-
-# 🛠 Tech Stack
-
-### Frontend
-
-* React
-* Tailwind CSS
-
-### Backend / AI Integration
-
-* Gemini AI API
-
-### Deployment
-
-* Vercel
-
-### Version Control
-
-* GitHub
-
-### Development
-
-* VS Code
+This enables developers to **write better code faster**.
 
 ---
 
-# ⚙️ Features
+# ✨ Features
 
 ## 🧠 AI Code Review
 
-Analyze code and identify:
+Automatically analyzes code and detects:
 
 * Bugs
 * Security vulnerabilities
-* Inefficient code
-* Bad practices
+* Inefficient algorithms
+* Poor coding practices
 
 ---
 
-## ✨ Code Rewrite
+## ⚡ AI Code Rewrite
 
-Generate a **clean, optimized version** of the submitted code.
+Generate an **optimized version of your code** following best practices.
 
 ---
 
 ## 📊 Code Quality Score
 
-AI provides a **quality score (0–100)** based on:
+Provides a **code quality score (0–100)** based on:
 
 * Security
 * Performance
@@ -98,7 +106,7 @@ AI provides a **quality score (0–100)** based on:
 
 ## 📑 AI Explanations
 
-Each suggestion includes a **clear explanation** so developers can understand the improvements.
+Each suggestion includes **clear explanations** to help developers learn.
 
 ---
 
@@ -106,32 +114,64 @@ Each suggestion includes a **clear explanation** so developers can understand th
 
 Compare:
 
-Original Code vs AI Improved Code
+Original Code
+⬇
+AI Improved Code
 
 ---
 
-# 🏗 Project Architecture
+# 🛠 Tech Stack
 
-User → React UI → API Request → Gemini AI → Code Analysis → Results Displayed
+| Layer           | Technology    |
+| --------------- | ------------- |
+| Frontend        | React         |
+| Styling         | Tailwind CSS  |
+| AI Engine       | Gemini AI API |
+| Deployment      | Vercel        |
+| Version Control | GitHub        |
+| Development     | VS Code       |
+
+---
+
+# 🏗 System Architecture
+
+```
+User
+  │
+  ▼
+React Frontend (Tailwind UI)
+  │
+  ▼
+API Request
+  │
+  ▼
+Gemini AI Model
+  │
+  ▼
+Code Analysis
+  │
+  ▼
+Results Displayed to User
+```
 
 ---
 
 # 📦 Installation
 
-Clone the repository:
+Clone the repository
 
 ```bash
 git clone https://github.com/Bharathkumar-6309/Ai_code_Review_and_Rewrite
 cd ai-code-review-agent
 ```
 
-Install dependencies:
+Install dependencies
 
 ```bash
 npm install
 ```
 
-Run the development server:
+Run development server
 
 ```bash
 npm run dev
@@ -141,7 +181,7 @@ npm run dev
 
 # 🔑 Environment Variables
 
-Create a `.env` file:
+Create a `.env` file
 
 ```
 GEMINI_API_KEY=your_api_key_here
@@ -153,41 +193,34 @@ GEMINI_API_KEY=your_api_key_here
 
 This project is deployed using **Vercel**.
 
-To deploy:
+Steps:
 
-1. Push your project to GitHub
-2. Import the repository into Vercel
-3. Add environment variables
-4. Deploy
-
----
-
-# 📷 Screenshots
-
-Add screenshots of your application interface here.
-
-Example:
-
-* Code Input Page
-* AI Review Output
-* Improved Code Suggestions
+1️⃣ Push project to GitHub
+2️⃣ Import repository into Vercel
+3️⃣ Add environment variables
+4️⃣ Deploy
 
 ---
 
-# 🎯 Hackathon Purpose
+# 🎯 Hackathon Goal
 
-This project demonstrates how **Artificial Intelligence can improve software development productivity** by automating code reviews.
+This project demonstrates how **Artificial Intelligence can transform developer workflows** by automating code reviews and improving software quality.
 
 ---
 
 # 🔮 Future Improvements
 
-* GitHub repository scanning
-* Multi-language code support
-* AI code security analysis
-* Pull request review automation
-* CI/CD integration
+🚀 GitHub repository scanning
+🚀 Multi-language code analysis
+🚀 Pull request AI review
+🚀 Security vulnerability detection
+🚀 CI/CD integration
 
+---
+
+# ⭐ Support
+
+If you found this project useful, please consider **starring the repository** ⭐
 
 ---
 
